@@ -10,7 +10,7 @@ Root is a common good initiative which aims to tackle current issues with on-cha
 
 We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through our protocol that interacts directly on-chain, showing the power of "console-like" queries to CRUD proposals from IPFS directly to the blockchain.
 
-The first version of our system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). In fact, it will use the Mofified version of Borda's Count (MBC) to be more democratic.
+The first version of our system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). In fact, it will use the modified version of Borda's Count (MBC) to be more democratic.
 
 ### Overview
 
@@ -22,9 +22,9 @@ Root is built around a collective creation and decision making system that uses 
 
 > The Borda count is a ranked voting system: the voter ranks the list of candidates in order of preference. So, for example, the voter gives a 1 to their most preferred candidate, a 2 to their second most preferred, and so on. [Borda Count - Wikipedia](https://en.wikipedia.org/wiki/Borda_count).
 
-Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via root.origin and instantiate a [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process.
+Our first goal is to facilitate low level consensuses for proposals from initiating individuals and teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via root.origin, instantiating a [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process and becoming an instant governance delegate. 
 
-Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
+Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up and build up voting weight as a delegate rather than just trying to write the _perfect proposal_ that is sent to a binary Y/N referendum.
 
 We built this [ggdoc hack](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) to demonstrate what we would like to achieve. Check out the comments to undestand the logic.
 
@@ -49,11 +49,11 @@ Let’s break this down a little more by arguing for some of the current ideas t
 
   - **Solution: we need simpler UX/UI**
 
->Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for increasingly poor decision-making - aka, there should be some time cost to making a _thoughtful_ decision and that should be implicit in the design principles.
->
->Other projects such as [Proof of Chaos](https://www.proofofchaos.app/) also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
->
->So yes we want to get people to swipe easily, but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote. When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives beyond the scope of this grant). 
+Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for increasingly poor decision-making - aka, there should be some time cost to making a _thoughtful_ decision and that should be implicit in the design principles.
+
+Other projects such as [Proof of Chaos](https://www.proofofchaos.app/) also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
+
+So yes we want to get people to swipe easily, but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote. When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives beyond the scope of this grant). 
 
 - **Problem 2: no standardisation of proposal data**
 
@@ -61,14 +61,14 @@ Let’s break this down a little more by arguing for some of the current ideas t
 
   - **Solution: proposal forms**
 
->The standardising of data inputs - is something the Edgeware community have debated endlessly, since there is no lack of proposals, but a lack of data standardisation causes issues nonetheless, with everyone essentially starting from a blank sheet of paper and creating their own documents and structures leading to arguments and circular debates.
->
->The issues of no standardisation:
->
->- For proposers: a blank sheet of paper is harder to fill out than a few boxes which trends towards proposer apathy / missing info / administrative time suck.
->- For voters: it makes comparison hard when comparing two proposals on a like for like basis this effects voter engagement, participation and confuses overall sentiment.
->
->A simple form is the obvious answer to address short term issues, but when we approach this challenge from a longer term perspective of optimising for a bigger picture - sourcing, sustaining and scaling collective network intelligence we can see that some standardisation is useful, but given the diversity of talent we have the potential to fund, across many domains, who each may prefer a different medium of expression, we can then see that standardisation also constrains the intelligence of the collective - voters and proposers.
+The standardising of data inputs - is something the Edgeware community have debated endlessly, since there is no lack of proposals, but a lack of data standardisation causes issues nonetheless, with everyone essentially starting from a blank sheet of paper and creating their own documents and structures leading to arguments and circular debates.
+
+The issues of no standardisation:
+
+- For proposers: a blank sheet of paper is harder to fill out than a few boxes which trends towards proposer apathy / missing info / administrative time suck.
+- For voters: it makes comparison hard when comparing two proposals on a like for like basis this effects voter engagement, participation and confuses overall sentiment.
+
+A simple form is the obvious answer to address short term issues, but when we approach this challenge from a longer term perspective of optimising for a bigger picture - sourcing, sustaining and scaling collective network intelligence we can see that some standardisation is useful, but given the diversity of talent we have the potential to fund, across many domains, who each may prefer a different medium of expression, we can then see that standardisation also constrains the intelligence of the collective - voters and proposers.
 
 **Referendums offer binary votes on some package of information, but as we know they are very dumb tools.**
 
@@ -80,7 +80,7 @@ If we can drive forward more nuanced and interactive decision making, that leads
 
 **Is there another way?**
 
-When we begin with a basic idea that no proposal put forward is final, or correct, or cannot be improved, then we begin to design different systems, optimising for advancing coherence between proposers and also voters. who we should aim to move towards contributors and even co-creators of proposals.
+When we begin with a basic idea that no proposal put forward is final, or correct, or cannot be improved, alongside the insight that everyone will understand the strengths and weaknesses of every idea differently, then we begin to design different systems, optimising for advancing coherence between proposers and also voters who we should aim to move towards contributors and even co-creators of proposals.
 
 By beginning with an outcome we are designing towards, we begin to see the problems differently and this has two primary effects on the way we imagine and design these systems:
 
@@ -131,7 +131,7 @@ The stated.tech team seeks to provide the ecosystem with Root as a new governanc
 
 As DotSama contributors, we've been spending this year watching teams growing and evolving into parachain owners within a federated network.
 
-We thus identified few major issues that need to be solved ASAP in order to fix DotSama's governance. Indeed, the current centralization in decision making processes within blockchain ecosystems results in:
+We thus identified few major issues that need to be solved ASAP in order to fix Substrate's governance. Indeed, the current centralization in decision making processes within blockchain ecosystems results in:
 
 - Lack of communication between voters and proposal makers ensures knowledge and experience is siloed
 
@@ -158,7 +158,7 @@ We want to fix these issues by leveraging engagement through the whole proposal 
 **Advisor**
 - Jam from [Shokunin Network](https://shokunin.network/)
 
-**Network Service:** 
+**Network Services:** 
 - Richard Welsh from [Decent Partners](https://decent.partners)
 
 ### Contact
