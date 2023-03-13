@@ -196,7 +196,7 @@ As a Preferendum team member, I want to access Preferendum proposals and voting 
 
 #### Bonus Story
 
-Inspired from Proof-Of-Chaos mechanisms, we could send NFTs to participants to give them a souvenir of their participation by minting RMRK based .pdf documents linked to the hash of their initial proposal. This NFT could also represent their identity in a Proof-Of-Reputation based environment.
+Inspired from [Proof-Of-Chaos](https://www.proofofchaos.app/about/) mechanisms, we could send NFTs to participants to give them a souvenir of their participation by minting RMRK based .pdf documents linked to the hash of their initial proposal. This NFT could also represent their identity in a Proof-Of-Reputation based environment.
 
 >Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves by delegating voting power to these projects.
 
